@@ -22,7 +22,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/edsonmichaque/template-cli/internal/config"
+	"github.com/edsonmichaque/opensdk-cli/internal/config"
 )
 
 type Config struct {

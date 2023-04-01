@@ -18,7 +18,7 @@ package cmd
 
 import (
 	"github.com/MakeNowJust/heredoc/v2"
-	"github.com/edsonmichaque/template-cli/internal/config"
+	"github.com/edsonmichaque/opensdk-cli/internal/config"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -34,10 +34,10 @@ func cmdBar(opts *Opts) *Cmd {
 		Use:   "bar",
 		Short: "List accounts",
 		Example: heredoc.Doc(`
-			template bar
-			template bar --output=json
-			template bar --output=yaml
-			template bar --output=json --query="[].id"
+			opensdk bar
+			opensdk bar --output=json
+			opensdk bar --output=yaml
+			opensdk bar --output=json --query="[].id"
 		`),
 		PreRunE: func(cmd *cobra.Command, args []string) error {
 			return viper.BindPFlags(cmd.Flags())

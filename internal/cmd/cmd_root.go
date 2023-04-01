@@ -34,14 +34,14 @@ var (
 )
 
 const (
-	cmdName           = "template"
+	cmdName           = "opensdk"
 	defaultProfile    = "main"
-	envCfgFile        = "TEMPLATE_CONFIG_FILE"
+	envCfgFile        = "OPENSDK_CONFIG_FILE"
 	envCfgHome        = "XDG_CONFIG_HOME"
 	envDev            = "DEV"
-	envPrefix         = "TEMPLATE"
+	envPrefix         = "OPENSDK"
 	envProd           = "PROD"
-	envProfile        = "TEMPLATE_PROFILE"
+	envProfile        = "OPENSDK_PROFILE"
 	envSandbox        = "SANDBOX"
 	optAccessToken    = "access-token"
 	optAccount        = "account"
@@ -64,7 +64,7 @@ const (
 	outputTable       = "table"
 	outputText        = "text"
 	outputYAML        = "yaml"
-	pathConfigFile    = "/etc/template"
+	pathConfigFile    = "/etc/opensdk"
 )
 
 // init

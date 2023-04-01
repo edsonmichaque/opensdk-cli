@@ -18,8 +18,8 @@ package cmd
 
 import (
 	"github.com/MakeNowJust/heredoc/v2"
-	"github.com/edsonmichaque/template-cli/internal/cmd/formatter"
-	"github.com/edsonmichaque/template-cli/internal/config"
+	"github.com/edsonmichaque/opensdk-cli/internal/cmd/formatter"
+	"github.com/edsonmichaque/opensdk-cli/internal/config"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -30,10 +30,10 @@ func cmdFoo(opts *Opts) *Cmd {
 		Use:   "foo",
 		Short: "List accounts",
 		Example: heredoc.Doc(`
-			template foo
-			template foo --output=json
-			template foo --output=yaml
-			template foo --output=json --query="[].id"
+			opensdk foo
+			opensdk foo --output=json
+			opensdk foo --output=yaml
+			opensdk foo --output=json --query="[].id"
 		`),
 		Args: cobra.NoArgs,
 		PreRunE: func(cmd *cobra.Command, args []string) error {

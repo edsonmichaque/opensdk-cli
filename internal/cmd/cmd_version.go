@@ -20,7 +20,7 @@ import (
 	"runtime"
 
 	"github.com/MakeNowJust/heredoc/v2"
-	"github.com/edsonmichaque/template-cli/internal/build"
+	"github.com/edsonmichaque/opensdk-cli/internal/build"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

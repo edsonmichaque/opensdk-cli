@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/edsonmichaque/template-cli/internal/config"
+	"github.com/edsonmichaque/opensdk-cli/internal/config"
 )
 
 // execConfigPrompt

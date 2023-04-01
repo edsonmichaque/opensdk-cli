@@ -68,7 +68,7 @@ func TestBar(t *testing.T) {
 	for tn, tc := range tt {
 		t.Run(tn, func(t *testing.T) {
 			process := &Process{
-				Command: "../../bin/template",
+				Command: "../../bin/opensdk",
 				Args:    tc.args,
 			}
 

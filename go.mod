@@ -1,4 +1,4 @@
-module github.com/edsonmichaque/template-cli
+module github.com/edsonmichaque/opensdk-cli
 
 go 1.19
 

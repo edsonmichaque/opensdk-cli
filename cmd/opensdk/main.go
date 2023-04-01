@@ -19,7 +19,7 @@ package main
 import (
 	"os"
 
-	"github.com/edsonmichaque/template-cli/internal/cmd"
+	"github.com/edsonmichaque/opensdk-cli/internal/cmd"
 )
 
 const (

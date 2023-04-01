@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/edsonmichaque/template-cli/internal/cmd/formatter"
-	"github.com/edsonmichaque/template-cli/internal/config"
+	"github.com/edsonmichaque/opensdk-cli/internal/cmd/formatter"
+	"github.com/edsonmichaque/opensdk-cli/internal/config"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
